@@ -1,10 +1,46 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: #282828;
+  background-color:black;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 100vw; /* 100% de la largeur de la vue du navigateur */
+  height: auto; /* Garde les proportions de l'image */
+  display: block; /* Assurez-vous que l'image est un élément de bloc */
+  position: fixed; /* La position fixe l'élément par rapport à la fenêtre du navigateur */
+  top: 0; /* Collez l'image en haut de la fenêtre du navigateur */
+  left: 0; /* Collez l'image 
+}
+  .menu {
+    position: fixed;
+    top: 20px; /* Ajustez la distance du haut selon vos préférences */
+    right: 20px; /* Ajustez la distance de la droite selon vos préférences */
+  }
+.menu {
+    position: absolute;
+    top: 10px; /* Ajustez la distance du haut selon vos préférences */
+    right: 20px; /* Ajustez la distance de la droite selon vos préférences */
 }
 
-.logo {
-  width: 100%; /* La largeur de l'image est égale à 100% de son conteneur */
-  height: auto; /* Laisse la hauteur ajustée automatiquement pour conserver les proportions */
-}
+  .menu ul {
+    list-style: none;
+  }
+
+  .menu ul li {
+    display: inline-block;
+    margin-left: 10px; /* Espacement entre les éléments du menu */
+  }
+
+  .menu ul li a {
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    color: white; /* Couleur du texte du menu */
+    font-size: 10px; /* Taille de la police du menu */
+    font-weight: bold; /* Épaisseur de la police du menu */
+  }
+
+  .menu ul li a:hover {
+    color: #10A5BF; /* Couleur du texte du menu au survol */
+  }
