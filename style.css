@@ -20,7 +20,7 @@ html {
   }
 .menu {
     position: absolute;
-    top: 10px; /* Ajustez la distance du haut selon vos préférences */
+    top: 8px; /* Ajustez la distance du haut selon vos préférences */
     right: 20px; /* Ajustez la distance de la droite selon vos préférences */
 }
 
@@ -30,15 +30,15 @@ html {
 
   .menu ul li {
     display: inline-block;
-    margin-left: 10px; /* Espacement entre les éléments du menu */
+    margin-left: 9px; /* Espacement entre les éléments du menu */
   }
 
   .menu ul li a {
     font-family: 'League Spartan', sans-serif;
     text-decoration: none;
     color: white; /* Couleur du texte du menu */
-    font-size: 10px; /* Taille de la police du menu */
-    font-weight: bold; /* Épaisseur de la police du menu */
+    font-size: 13px; /* Taille de la police du menu */
+     /* Épaisseur de la police du menu */
   }
 
   .menu ul li a:hover {
