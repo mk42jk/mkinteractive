@@ -2,3 +2,29 @@ html {
   height: 100%;
   width: 100%;
 }
+.navbar {
+  display: flex;
+  padding: 10px;
+  background-color: black;
+  height: 230px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: flex-start;
+}
+.navbar-brand img {
+  height: 60px; /* Ajustez la hauteur selon vos besoins */
+  margin-top: 10px; /* Espace entre l'image et le texte */
+}
+.navbar-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: white;
+}
+.navbar-title-container {
+  display: flex;
+  
+  
+
+}
