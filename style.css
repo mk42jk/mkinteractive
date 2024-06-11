@@ -37,11 +37,11 @@ html {
     font-family: 'League Spartan', sans-serif;
     text-decoration: none;
     color: white;
-    font-size: 5vw;
+    font-size: 0.5rem;
   }
 
   .menu ul li a:hover {
-    color: #10A5BF; /* Couleur du texte du menu au survol */
+    color: #FF66C4; /* Couleur du texte du menu au survol */
   }
 
 @media (max-width: 768px) {
@@ -52,6 +52,10 @@ html {
 
 @media (max-width: 480px) {
   .menu ul li a {
-      font-size: 1.4rem; /* Augmente davantage la taille de la police sur les écrans très petits */
+      font-size: 1.4rem; /
   }
+}
+h2 {
+  font-family: 'League Spartan', sans-serif;
+  
 }
